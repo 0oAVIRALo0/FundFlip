@@ -52,7 +52,7 @@ export const Signup = () => {
             <Button
               onClick={async () => {
                 const response = await axios.post(
-                  "http://localhost:3000/api/v1/user/signup",
+                  "http://localhost:8000/api/v1/user/signup",
                   {
                     username,
                     firstName,
